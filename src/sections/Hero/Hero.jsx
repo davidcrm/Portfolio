@@ -53,11 +53,10 @@ function Hero() {
             <img src={linkedInIcon} alt="LinkedIn Icon"/>
           </a>
         </span>
-        <p className={styles.description}>With a passion for developing modern React web apps for comercial buisinesses</p>
+        <p className={styles.description}>Adentrándome en el mundo de la programación y aprendiendo cada día como el primero.</p>
         <a href={CV} download>
           <button className='hover'>Curriculum</button>
         </a>
-
       </div>
     </section>
   )

@@ -7,7 +7,7 @@ function Contact() {
       <form action="">
         <div className='formGroup'>
           <label htmlFor="Name" hidden>
-            Name:
+            Nombre:
           </label>
           <input 
           type="text"
@@ -18,7 +18,7 @@ function Contact() {
         </div>
         <div className='formGroup'>
           <label htmlFor="Email" hidden>
-            email:
+            Email:
           </label>
           <input 
           type="text"
@@ -29,7 +29,7 @@ function Contact() {
         </div>
         <div className='formGroup'>
           <label htmlFor="Message" hidden>
-            Message:
+            Mensaje:
           </label>
           <textarea
           type="text"

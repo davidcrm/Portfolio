@@ -10,7 +10,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={logoJuego}
-          link="https://github.com/davidcrm/juegoReact.git"
+          link="https://davidcrm.github.io/juegoReact/"
           title="Juego de Peleas en React"
           description ="Juego simple de peleas con azar desarrollado en React."
         />
@@ -22,7 +22,7 @@ function Projects() {
         />
         <ProjectCard
           src={to_do}
-          link="https://github.com/davidcrm/To-do-List.git"
+          link="https://davidcrm.github.io/To-do-List/"
           title="To-do List en React"
           description ="Aplicación web muy simple desarrollada en React para añadir tareas con un contador de las mismas."
         />

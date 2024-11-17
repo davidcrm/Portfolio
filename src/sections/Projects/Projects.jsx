@@ -17,14 +17,14 @@ function Projects() {
         <ProjectCard
           src={divisas}
           link="https://github.com/davidcrm/Cambio-de-divisa-Multihilo.git"
-          title="Aplicación cambio de divisa múltiple"
+          title="Aplicación cambio de divisa"
           description ="Aplicación desarrollada en JavaFX usando programación multihilo para convertir divisas."
         />
         <ProjectCard
           src={to_do}
           link="https://davidcrm.github.io/To-do-List/"
           title="To-do List en React"
-          description ="Aplicación web muy simple desarrollada en React para añadir tareas con un contador de las mismas."
+          description ="Aplicación web React para añadir tareas con un contador de las mismas."
         />
       </div>
     </section>

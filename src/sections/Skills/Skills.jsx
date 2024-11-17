@@ -23,9 +23,8 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList skill="Git/GitHub"/>
-        <SkillList skill="PostgreeSQL"/>
+        <SkillList skill="PostgreSQL"/>
         <SkillList skill="MySQL"/>
-        <SkillList skill="JetPack Compose"/>
       </div>
     </section>
   )

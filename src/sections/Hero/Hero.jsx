@@ -43,11 +43,11 @@ function Hero() {
           <a href="https://github.com/davidcrm" target='_blank'>
             <img src={gitHubIcon} alt="GitHub Icon"/>
           </a>
-          <a href="www.linkedin.com/in/davidcarrenomacias" target='_blank'>
+          <a href="https://www.linkedin.com/in/davidcarrenomacias" target='_blank'>
             <img src={linkedInIcon} alt="LinkedIn Icon"/>
           </a>
         </span>
-        <p className={styles.description}>Adentrándome en el mundo de la programación y aprendiendo cada día como el primero.</p>
+        <p className={styles.description}>Adentrándome en el mundo de la programación y aprendiendo cada día.</p>
         <a href={CV} download>
           <button className='hover'>Curriculum</button>
         </a>

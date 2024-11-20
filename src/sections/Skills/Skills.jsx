@@ -6,9 +6,9 @@ import javalogo from '../../assets/java-icon.svg'
 function Skills() {
   const {theme, toggleTheme } = useTheme();
 
-  const skillsRow1 = ["html5", "css3", "Java", "JavaScript","Python", "Kotlin"];
+  const skillsRow1 = ["HTML5", "CSS3", "Java", "JavaScript","Python", "Kotlin"];
   const skillsRow2 = ["React", "Django", "BootStrap", "Ionic"];
-  const skillsRow3 = ["Git/GitHub", "PostgreSQL", "MySQL"];
+  const skillsRow3 = ["Git/GitHub", "PostgreSQL", "MySQL", "mongoDB"];
 
 
   const color = theme === "light" ? "000000" : "ffffff";

@@ -1,38 +1,36 @@
 import React from 'react';
 import { useTheme } from '../../common/ThemeContext';
 import styles from './SkillsStyle.module.css';
+import javalogo from '../../assets/java-icon.svg'
 
 function Skills() {
   const {theme, toggleTheme } = useTheme();
 
-  const skillsRow1 = ["HTML", "CSS", "JAVA", "JavaScript", "SQL", "Kotlin"];
+  const skillsRow1 = ["html5", "css3", "Java", "JavaScript","Python", "Kotlin"];
   const skillsRow2 = ["React", "Django", "BootStrap", "Ionic"];
   const skillsRow3 = ["Git/GitHub", "PostgreSQL", "MySQL"];
 
-  const skillNameMap = {
-    HTML: "html5",
-    CSS: "css3",
-    JAVA: "openjdk",
-    JavaScript: "javascript",
-    SQL: "mysql",
-    Kotlin: "kotlin",
-    React: "react",
-    Django: "django",
-    JavaFX: "java",
-    BootStrap: "bootstrap",
-    Ionic: "ionic",
-    "Git/GitHub": "github",
-    PostgreSQL: "postgresql",
-    MySQL: "mysql"
-  };
+
+  const color = theme === "light" ? "000000" : "ffffff";
 
   // Renderizar una fila de habilidades
   const renderSkillRow = (skills) => (
     <div className={styles.skillList}>
-      {skills.map((skill, index) => {
-        const formattedSkill = skillNameMap[skill] || skill.replace(/[^a-zA-Z]/g, "").toLowerCase();
-        const logoUrl = `https://cdn.simpleicons.org/${formattedSkill}`;
-
+      
+      {skills.map((skill) => {
+        console.log(skill)
+        const logoUrl = `https://cdn.simpleicons.org/${skill}`;
+        if (skill === "Java"){
+          return(
+            <span>
+            <img
+              src={javalogo}
+              alt={`Java icon`}
+            />
+            <p>{skill}</p>
+          </span>
+          )
+        }
         return (
           <span>
             <img

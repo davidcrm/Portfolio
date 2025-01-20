@@ -46,8 +46,6 @@ function Skills() {
 
   return (
     <section id="skills" className={styles.container}>
-      {//{console.log(theme)}
-      }
       <h1 className="sectionTitle">Skills</h1>
       {renderSkillRow(skillsRow1)}
       <hr/>

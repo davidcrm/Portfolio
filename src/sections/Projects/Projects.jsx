@@ -1,7 +1,6 @@
 import styles from './ProjectStyles.module.css'
 import logoJuego from '../../assets/logoJuego.png'
 import divisas from '../../assets/imagenDivisas.png'
-import to_do from '../../assets/to-do.webp'
 import ProjectCard from '../../common/ProjectCard'
 function Projects() {
   return (

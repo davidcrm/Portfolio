@@ -2,6 +2,7 @@ import styles from './ProjectStyles.module.css'
 import logoJuego from '../../assets/logoJuego.png'
 import divisas from '../../assets/imagenDivisas.png'
 import ProjectCard from '../../common/ProjectCard'
+import to_do from '../../assets/checklist.webp'
 function Projects() {
   return (
     <section id='projects' className={styles.container}>

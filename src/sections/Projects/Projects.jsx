@@ -1,30 +1,31 @@
-import styles from './ProjectStyles.module.css'
-import logoJuego from '../../assets/logoJuego.png'
-import divisas from '../../assets/imagenDivisas.png'
-import ProjectCard from '../../common/ProjectCard'
-import to_do from '../../assets/checklist.webp'
+import styles from './ProjectStyles.module.css';
+import ProjectCard from '../../common/ProjectCard';
+import AppAlumnos from '../../assets/AppAlumnos.png';
+import PokeBall from '../../assets/pokeball.png';
+import Chat from '../../assets/chat.webp';
+
 function Projects() {
   return (
     <section id='projects' className={styles.container}>
       <h1 className='sectionTitle'>Proyectos</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={logoJuego}
-          link="https://davidcrm.github.io/juegoReact/"
-          title="Juego de Peleas en React"
-          description ="Juego simple de peleas con azar desarrollado en React."
+          src={AppAlumnos}
+          link="https://github.com/davidcrm/UT7_Tarea2_DavidCarreno.git"
+          title="Gestión de alumnos y matrículas"
+          description ="Aplicación para gestionar matriculas y alumnos desarrollado en React, CRUD en Express y base de datos Postgres"
+        />
+        <ProjectCard 
+        src={PokeBall}
+        link={'https://github.com/davidcrm/ProyectoFinal_PGL_PokeAPI.git'}
+        title={'Pokedex Para Android'}
+        description={'Pokedex Desarrollada en Kotlin con Jetpack Compose utilizando Dagger Hilt para inyección de dependencias, Retrofit para conectar a la API e Intents. Usando Código Limpio'}
         />
         <ProjectCard
-          src={divisas}
-          link="https://github.com/davidcrm/Cambio-de-divisa-Multihilo.git"
-          title="Aplicación cambio de divisa"
-          description ="Aplicación desarrollada en JavaFX usando programación multihilo para convertir divisas."
-        />
-        <ProjectCard
-          src={to_do}
-          link="https://davidcrm.github.io/To-do-List/"
-          title="To-do List en React"
-          description ="Aplicación web React para añadir tareas con un contador de las mismas."
+          src={Chat}
+          link={'https://github.com/davidcrm/PGV_ActividadSockets_Terminada.git'}
+          title={'Chat Multihilo con Sockets'}
+          description={'Proyecto desarrollado en Java Puro utilizando sockets e hilos para hacer un chat cliente servidor con interfaz gráfica en JavaFX'}
         />
       </div>
     </section>
